@@ -44,7 +44,7 @@ class ProfileDetailsViewModel {
     private var profileDetails: BaseUserModel?
 
     // MARK: - Public methods
-
+    //prepared for downloading every user details separately
     func loadData(with completion: @escaping (Completion) -> Void) {
         guard let profile = profile else {
             completion(.failure(ApiErrorsFactory.makeError(for: .missingParameters)))
