@@ -7,12 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8979E8F720C6B7590002A05C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979E8F620C6B7590002A05C /* AppDelegate.swift */; };
-		8979E8F920C6B7590002A05C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979E8F820C6B7590002A05C /* MasterViewController.swift */; };
-		8979E8FB20C6B7590002A05C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979E8FA20C6B7590002A05C /* DetailViewController.swift */; };
-		8979E8FE20C6B7590002A05C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8979E8FC20C6B7590002A05C /* Main.storyboard */; };
-		8979E90020C6B75C0002A05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8979E8FF20C6B75C0002A05C /* Assets.xcassets */; };
-		8979E90320C6B75C0002A05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8979E90120C6B75C0002A05C /* LaunchScreen.storyboard */; };
+		89728C1320C6F8DD00A4D3AC /* GithubUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BDF20C6F8DD00A4D3AC /* GithubUserModel.swift */; };
+		89728C1420C6F8DD00A4D3AC /* GithubUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BDF20C6F8DD00A4D3AC /* GithubUserModel.swift */; };
+		89728C1520C6F8DD00A4D3AC /* GithubUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BDF20C6F8DD00A4D3AC /* GithubUserModel.swift */; };
+		89728C1620C6F8DD00A4D3AC /* DailymotionResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE020C6F8DD00A4D3AC /* DailymotionResponseModel.swift */; };
+		89728C1720C6F8DD00A4D3AC /* DailymotionResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE020C6F8DD00A4D3AC /* DailymotionResponseModel.swift */; };
+		89728C1820C6F8DD00A4D3AC /* DailymotionResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE020C6F8DD00A4D3AC /* DailymotionResponseModel.swift */; };
+		89728C1920C6F8DD00A4D3AC /* DailymotionUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE120C6F8DD00A4D3AC /* DailymotionUserModel.swift */; };
+		89728C1A20C6F8DD00A4D3AC /* DailymotionUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE120C6F8DD00A4D3AC /* DailymotionUserModel.swift */; };
+		89728C1B20C6F8DD00A4D3AC /* DailymotionUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE120C6F8DD00A4D3AC /* DailymotionUserModel.swift */; };
+		89728C1C20C6F8DD00A4D3AC /* BaseUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE220C6F8DD00A4D3AC /* BaseUserModel.swift */; };
+		89728C1D20C6F8DD00A4D3AC /* BaseUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE220C6F8DD00A4D3AC /* BaseUserModel.swift */; };
+		89728C1E20C6F8DD00A4D3AC /* BaseUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE220C6F8DD00A4D3AC /* BaseUserModel.swift */; };
+		89728C1F20C6F8DD00A4D3AC /* ApiResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE420C6F8DD00A4D3AC /* ApiResponseDecoder.swift */; };
+		89728C2020C6F8DD00A4D3AC /* ApiResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE420C6F8DD00A4D3AC /* ApiResponseDecoder.swift */; };
+		89728C2120C6F8DD00A4D3AC /* ApiResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE420C6F8DD00A4D3AC /* ApiResponseDecoder.swift */; };
+		89728C2220C6F8DD00A4D3AC /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE520C6F8DD00A4D3AC /* ApiService.swift */; };
+		89728C2320C6F8DD00A4D3AC /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE520C6F8DD00A4D3AC /* ApiService.swift */; };
+		89728C2420C6F8DD00A4D3AC /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE520C6F8DD00A4D3AC /* ApiService.swift */; };
+		89728C2520C6F8DD00A4D3AC /* BaseApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE620C6F8DD00A4D3AC /* BaseApiService.swift */; };
+		89728C2620C6F8DD00A4D3AC /* BaseApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE620C6F8DD00A4D3AC /* BaseApiService.swift */; };
+		89728C2720C6F8DD00A4D3AC /* BaseApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE620C6F8DD00A4D3AC /* BaseApiService.swift */; };
+		89728C2820C6F8DD00A4D3AC /* ApiErrorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE720C6F8DD00A4D3AC /* ApiErrorsFactory.swift */; };
+		89728C2920C6F8DD00A4D3AC /* ApiErrorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE720C6F8DD00A4D3AC /* ApiErrorsFactory.swift */; };
+		89728C2A20C6F8DD00A4D3AC /* ApiErrorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE720C6F8DD00A4D3AC /* ApiErrorsFactory.swift */; };
+		89728C2B20C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE920C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift */; };
+		89728C2C20C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE920C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift */; };
+		89728C2D20C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BE920C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift */; };
+		89728C2E20C6F8DD00A4D3AC /* ApiServiceGithubList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEA20C6F8DD00A4D3AC /* ApiServiceGithubList.swift */; };
+		89728C2F20C6F8DD00A4D3AC /* ApiServiceGithubList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEA20C6F8DD00A4D3AC /* ApiServiceGithubList.swift */; };
+		89728C3020C6F8DD00A4D3AC /* ApiServiceGithubList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEA20C6F8DD00A4D3AC /* ApiServiceGithubList.swift */; };
+		89728C3120C6F8DD00A4D3AC /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BED20C6F8DD00A4D3AC /* UIFont+Extensions.swift */; };
+		89728C3220C6F8DD00A4D3AC /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BED20C6F8DD00A4D3AC /* UIFont+Extensions.swift */; };
+		89728C3320C6F8DD00A4D3AC /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BED20C6F8DD00A4D3AC /* UIFont+Extensions.swift */; };
+		89728C3420C6F8DD00A4D3AC /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEE20C6F8DD00A4D3AC /* UIColor+Extensions.swift */; };
+		89728C3520C6F8DD00A4D3AC /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEE20C6F8DD00A4D3AC /* UIColor+Extensions.swift */; };
+		89728C3620C6F8DD00A4D3AC /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEE20C6F8DD00A4D3AC /* UIColor+Extensions.swift */; };
+		89728C3720C6F8DD00A4D3AC /* NSAttributedString+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEF20C6F8DD00A4D3AC /* NSAttributedString+Html.swift */; };
+		89728C3820C6F8DD00A4D3AC /* NSAttributedString+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEF20C6F8DD00A4D3AC /* NSAttributedString+Html.swift */; };
+		89728C3920C6F8DD00A4D3AC /* NSAttributedString+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEF20C6F8DD00A4D3AC /* NSAttributedString+Html.swift */; };
+		89728C3A20C6F8DD00A4D3AC /* UIImageView+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF020C6F8DD00A4D3AC /* UIImageView+LoadImage.swift */; };
+		89728C3B20C6F8DD00A4D3AC /* UIImageView+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF020C6F8DD00A4D3AC /* UIImageView+LoadImage.swift */; };
+		89728C3C20C6F8DD00A4D3AC /* UIImageView+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF020C6F8DD00A4D3AC /* UIImageView+LoadImage.swift */; };
+		89728C3D20C6F8DD00A4D3AC /* Date+ToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF120C6F8DD00A4D3AC /* Date+ToString.swift */; };
+		89728C3E20C6F8DD00A4D3AC /* Date+ToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF120C6F8DD00A4D3AC /* Date+ToString.swift */; };
+		89728C3F20C6F8DD00A4D3AC /* Date+ToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF120C6F8DD00A4D3AC /* Date+ToString.swift */; };
+		89728C4020C6F8DD00A4D3AC /* String+ApiDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF220C6F8DD00A4D3AC /* String+ApiDate.swift */; };
+		89728C4120C6F8DD00A4D3AC /* String+ApiDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF220C6F8DD00A4D3AC /* String+ApiDate.swift */; };
+		89728C4220C6F8DD00A4D3AC /* String+ApiDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF220C6F8DD00A4D3AC /* String+ApiDate.swift */; };
+		89728C4320C6F8DD00A4D3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF320C6F8DD00A4D3AC /* AppDelegate.swift */; };
+		89728C4420C6F8DD00A4D3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF320C6F8DD00A4D3AC /* AppDelegate.swift */; };
+		89728C4520C6F8DD00A4D3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF320C6F8DD00A4D3AC /* AppDelegate.swift */; };
+		89728C4620C6F8DD00A4D3AC /* CategoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF720C6F8DD00A4D3AC /* CategoriesListViewModel.swift */; };
+		89728C4720C6F8DD00A4D3AC /* CategoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF720C6F8DD00A4D3AC /* CategoriesListViewModel.swift */; };
+		89728C4820C6F8DD00A4D3AC /* CategoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF720C6F8DD00A4D3AC /* CategoriesListViewModel.swift */; };
+		89728C4920C6F8DD00A4D3AC /* CategoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF920C6F8DD00A4D3AC /* CategoriesListViewController.swift */; };
+		89728C4A20C6F8DD00A4D3AC /* CategoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF920C6F8DD00A4D3AC /* CategoriesListViewController.swift */; };
+		89728C4B20C6F8DD00A4D3AC /* CategoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF920C6F8DD00A4D3AC /* CategoriesListViewController.swift */; };
+		89728C4C20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BFD20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift */; };
+		89728C4D20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BFD20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift */; };
+		89728C4E20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BFD20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift */; };
+		89728C4F20C6F8DD00A4D3AC /* ProfileDetailsOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BFF20C6F8DD00A4D3AC /* ProfileDetailsOwner.swift */; };
+		89728C5020C6F8DD00A4D3AC /* ProfileDetailsOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BFF20C6F8DD00A4D3AC /* ProfileDetailsOwner.swift */; };
+		89728C5120C6F8DD00A4D3AC /* ProfileDetailsOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BFF20C6F8DD00A4D3AC /* ProfileDetailsOwner.swift */; };
+		89728C5220C6F8DD00A4D3AC /* ProfileDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0120C6F8DD00A4D3AC /* ProfileDetailsViewController.swift */; };
+		89728C5320C6F8DD00A4D3AC /* ProfileDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0120C6F8DD00A4D3AC /* ProfileDetailsViewController.swift */; };
+		89728C5420C6F8DD00A4D3AC /* ProfileDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0120C6F8DD00A4D3AC /* ProfileDetailsViewController.swift */; };
+		89728C5520C6F8DD00A4D3AC /* ProfileCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0420C6F8DD00A4D3AC /* ProfileCellViewModel.swift */; };
+		89728C5620C6F8DD00A4D3AC /* ProfileCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0420C6F8DD00A4D3AC /* ProfileCellViewModel.swift */; };
+		89728C5720C6F8DD00A4D3AC /* ProfileCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0420C6F8DD00A4D3AC /* ProfileCellViewModel.swift */; };
+		89728C5820C6F8DD00A4D3AC /* ProfilesListOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0620C6F8DD00A4D3AC /* ProfilesListOwner.swift */; };
+		89728C5920C6F8DD00A4D3AC /* ProfilesListOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0620C6F8DD00A4D3AC /* ProfilesListOwner.swift */; };
+		89728C5A20C6F8DD00A4D3AC /* ProfilesListOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0620C6F8DD00A4D3AC /* ProfilesListOwner.swift */; };
+		89728C5B20C6F8DD00A4D3AC /* ProfilesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0820C6F8DD00A4D3AC /* ProfilesListViewController.swift */; };
+		89728C5C20C6F8DD00A4D3AC /* ProfilesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0820C6F8DD00A4D3AC /* ProfilesListViewController.swift */; };
+		89728C5D20C6F8DD00A4D3AC /* ProfilesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0820C6F8DD00A4D3AC /* ProfilesListViewController.swift */; };
+		89728C5E20C6F8DD00A4D3AC /* ProfilesListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89728C0A20C6F8DD00A4D3AC /* ProfilesListTableViewCell.xib */; };
+		89728C5F20C6F8DD00A4D3AC /* ProfilesListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89728C0A20C6F8DD00A4D3AC /* ProfilesListTableViewCell.xib */; };
+		89728C6020C6F8DD00A4D3AC /* ProfilesListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89728C0A20C6F8DD00A4D3AC /* ProfilesListTableViewCell.xib */; };
+		89728C6120C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0B20C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift */; };
+		89728C6220C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0B20C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift */; };
+		89728C6320C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C0B20C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift */; };
+		89728C6420C6F8DD00A4D3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89728C0D20C6F8DD00A4D3AC /* Assets.xcassets */; };
+		89728C6520C6F8DD00A4D3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89728C0D20C6F8DD00A4D3AC /* Assets.xcassets */; };
+		89728C6620C6F8DD00A4D3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89728C0D20C6F8DD00A4D3AC /* Assets.xcassets */; };
+		89728C6720C6F8DD00A4D3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89728C0E20C6F8DD00A4D3AC /* LaunchScreen.storyboard */; };
+		89728C6820C6F8DD00A4D3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89728C0E20C6F8DD00A4D3AC /* LaunchScreen.storyboard */; };
+		89728C6920C6F8DD00A4D3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89728C0E20C6F8DD00A4D3AC /* LaunchScreen.storyboard */; };
+		89728C6A20C6F8DD00A4D3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89728C1020C6F8DD00A4D3AC /* Main.storyboard */; };
+		89728C6B20C6F8DD00A4D3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89728C1020C6F8DD00A4D3AC /* Main.storyboard */; };
+		89728C6C20C6F8DD00A4D3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89728C1020C6F8DD00A4D3AC /* Main.storyboard */; };
+		89728C6D20C6F8DD00A4D3AC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89728C1220C6F8DD00A4D3AC /* Info.plist */; };
+		89728C6E20C6F8DD00A4D3AC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89728C1220C6F8DD00A4D3AC /* Info.plist */; };
+		89728C6F20C6F8DD00A4D3AC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89728C1220C6F8DD00A4D3AC /* Info.plist */; };
+		89728C7220C6F94A00A4D3AC /* ApiServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C7020C6F94A00A4D3AC /* ApiServiceStub.swift */; };
 		8979E90E20C6B75C0002A05C /* GitHub_dailymotion_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979E90D20C6B75C0002A05C /* GitHub_dailymotion_APITests.swift */; };
 		8979E91920C6B75C0002A05C /* GitHub_dailymotion_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979E91820C6B75C0002A05C /* GitHub_dailymotion_APIUITests.swift */; };
 /* End PBXBuildFile section */
@@ -35,20 +123,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10FA636F45A2C073536F4EA2 /* Pods-GitHub-dailymotion-APITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub-dailymotion-APITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub-dailymotion-APITests/Pods-GitHub-dailymotion-APITests.debug.xcconfig"; sourceTree = "<group>"; };
+		12A950F516630C5D5C077B06 /* Pods_GitHub_dailymotion_APITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHub_dailymotion_APITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		587B390DF593089F442C3D0E /* Pods-GitHub-dailymotion-API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub-dailymotion-API.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub-dailymotion-API/Pods-GitHub-dailymotion-API.debug.xcconfig"; sourceTree = "<group>"; };
+		7FD79C9B4973633250B4FC4C /* Pods-GitHub-dailymotion-APITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub-dailymotion-APITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub-dailymotion-APITests/Pods-GitHub-dailymotion-APITests.release.xcconfig"; sourceTree = "<group>"; };
+		89728BDF20C6F8DD00A4D3AC /* GithubUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUserModel.swift; sourceTree = "<group>"; };
+		89728BE020C6F8DD00A4D3AC /* DailymotionResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailymotionResponseModel.swift; sourceTree = "<group>"; };
+		89728BE120C6F8DD00A4D3AC /* DailymotionUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailymotionUserModel.swift; sourceTree = "<group>"; };
+		89728BE220C6F8DD00A4D3AC /* BaseUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUserModel.swift; sourceTree = "<group>"; };
+		89728BE420C6F8DD00A4D3AC /* ApiResponseDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponseDecoder.swift; sourceTree = "<group>"; };
+		89728BE520C6F8DD00A4D3AC /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		89728BE620C6F8DD00A4D3AC /* BaseApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseApiService.swift; sourceTree = "<group>"; };
+		89728BE720C6F8DD00A4D3AC /* ApiErrorsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiErrorsFactory.swift; sourceTree = "<group>"; };
+		89728BE920C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServiceDailymotionList.swift; sourceTree = "<group>"; };
+		89728BEA20C6F8DD00A4D3AC /* ApiServiceGithubList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServiceGithubList.swift; sourceTree = "<group>"; };
+		89728BED20C6F8DD00A4D3AC /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		89728BEE20C6F8DD00A4D3AC /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		89728BEF20C6F8DD00A4D3AC /* NSAttributedString+Html.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Html.swift"; sourceTree = "<group>"; };
+		89728BF020C6F8DD00A4D3AC /* UIImageView+LoadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+LoadImage.swift"; sourceTree = "<group>"; };
+		89728BF120C6F8DD00A4D3AC /* Date+ToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+ToString.swift"; sourceTree = "<group>"; };
+		89728BF220C6F8DD00A4D3AC /* String+ApiDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ApiDate.swift"; sourceTree = "<group>"; };
+		89728BF320C6F8DD00A4D3AC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89728BF720C6F8DD00A4D3AC /* CategoriesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListViewModel.swift; sourceTree = "<group>"; };
+		89728BF920C6F8DD00A4D3AC /* CategoriesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListViewController.swift; sourceTree = "<group>"; };
+		89728BFD20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDetailsViewModel.swift; sourceTree = "<group>"; };
+		89728BFF20C6F8DD00A4D3AC /* ProfileDetailsOwner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDetailsOwner.swift; sourceTree = "<group>"; };
+		89728C0120C6F8DD00A4D3AC /* ProfileDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDetailsViewController.swift; sourceTree = "<group>"; };
+		89728C0420C6F8DD00A4D3AC /* ProfileCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCellViewModel.swift; sourceTree = "<group>"; };
+		89728C0620C6F8DD00A4D3AC /* ProfilesListOwner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilesListOwner.swift; sourceTree = "<group>"; };
+		89728C0820C6F8DD00A4D3AC /* ProfilesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilesListViewController.swift; sourceTree = "<group>"; };
+		89728C0A20C6F8DD00A4D3AC /* ProfilesListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfilesListTableViewCell.xib; sourceTree = "<group>"; };
+		89728C0B20C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilesListTableViewCell.swift; sourceTree = "<group>"; };
+		89728C0D20C6F8DD00A4D3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89728C0F20C6F8DD00A4D3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89728C1120C6F8DD00A4D3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89728C1220C6F8DD00A4D3AC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89728C7020C6F94A00A4D3AC /* ApiServiceStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServiceStub.swift; sourceTree = "<group>"; };
 		8979E8F320C6B7580002A05C /* GitHub-dailymotion-API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub-dailymotion-API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8979E8F620C6B7590002A05C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8979E8F820C6B7590002A05C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		8979E8FA20C6B7590002A05C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		8979E8FD20C6B7590002A05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8979E8FF20C6B75C0002A05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8979E90220C6B75C0002A05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8979E90420C6B75C0002A05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8979E90920C6B75C0002A05C /* GitHub-dailymotion-APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitHub-dailymotion-APITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8979E90D20C6B75C0002A05C /* GitHub_dailymotion_APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_dailymotion_APITests.swift; sourceTree = "<group>"; };
 		8979E90F20C6B75C0002A05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8979E91420C6B75C0002A05C /* GitHub-dailymotion-APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitHub-dailymotion-APIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8979E91820C6B75C0002A05C /* GitHub_dailymotion_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_dailymotion_APIUITests.swift; sourceTree = "<group>"; };
 		8979E91A20C6B75C0002A05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B6EC4C82228517E74FA230 /* Pods_GitHub_dailymotion_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHub_dailymotion_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90C6B71D4812639BD85EC84 /* Pods-GitHub-dailymotion-API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub-dailymotion-API.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub-dailymotion-API/Pods-GitHub-dailymotion-API.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +195,225 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B79F8A840223D0816BDAF02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1B6EC4C82228517E74FA230 /* Pods_GitHub_dailymotion_API.framework */,
+				12A950F516630C5D5C077B06 /* Pods_GitHub_dailymotion_APITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		808DECFDA851CF74A67F26B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				587B390DF593089F442C3D0E /* Pods-GitHub-dailymotion-API.debug.xcconfig */,
+				F90C6B71D4812639BD85EC84 /* Pods-GitHub-dailymotion-API.release.xcconfig */,
+				10FA636F45A2C073536F4EA2 /* Pods-GitHub-dailymotion-APITests.debug.xcconfig */,
+				7FD79C9B4973633250B4FC4C /* Pods-GitHub-dailymotion-APITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89728BDD20C6F8DD00A4D3AC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				89728BDE20C6F8DD00A4D3AC /* Models */,
+				89728BE320C6F8DD00A4D3AC /* Base */,
+				89728BE820C6F8DD00A4D3AC /* Services */,
+			);
+			name = API;
+			path = "../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6C611124-9B01-49A0-9CF6-B38B602DD786/DocumentsBrowser 2/Github & Dailymotion API/API";
+			sourceTree = "<group>";
+		};
+		89728BDE20C6F8DD00A4D3AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89728BDF20C6F8DD00A4D3AC /* GithubUserModel.swift */,
+				89728BE020C6F8DD00A4D3AC /* DailymotionResponseModel.swift */,
+				89728BE120C6F8DD00A4D3AC /* DailymotionUserModel.swift */,
+				89728BE220C6F8DD00A4D3AC /* BaseUserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		89728BE320C6F8DD00A4D3AC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				89728BE420C6F8DD00A4D3AC /* ApiResponseDecoder.swift */,
+				89728BE520C6F8DD00A4D3AC /* ApiService.swift */,
+				89728BE620C6F8DD00A4D3AC /* BaseApiService.swift */,
+				89728BE720C6F8DD00A4D3AC /* ApiErrorsFactory.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		89728BE820C6F8DD00A4D3AC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				89728BE920C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift */,
+				89728BEA20C6F8DD00A4D3AC /* ApiServiceGithubList.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		89728BEB20C6F8DD00A4D3AC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				89728BEC20C6F8DD00A4D3AC /* Extensions */,
+				89728BF320C6F8DD00A4D3AC /* AppDelegate.swift */,
+			);
+			name = Common;
+			path = "../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6C611124-9B01-49A0-9CF6-B38B602DD786/DocumentsBrowser 2/Github & Dailymotion API/Common";
+			sourceTree = "<group>";
+		};
+		89728BEC20C6F8DD00A4D3AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				89728BED20C6F8DD00A4D3AC /* UIFont+Extensions.swift */,
+				89728BEE20C6F8DD00A4D3AC /* UIColor+Extensions.swift */,
+				89728BEF20C6F8DD00A4D3AC /* NSAttributedString+Html.swift */,
+				89728BF020C6F8DD00A4D3AC /* UIImageView+LoadImage.swift */,
+				89728BF120C6F8DD00A4D3AC /* Date+ToString.swift */,
+				89728BF220C6F8DD00A4D3AC /* String+ApiDate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		89728BF420C6F8DD00A4D3AC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				89728BF520C6F8DD00A4D3AC /* CategoriesList */,
+				89728BFB20C6F8DD00A4D3AC /* UserDetails */,
+				89728C0220C6F8DD00A4D3AC /* ProfileList */,
+			);
+			name = Presentation;
+			path = "../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6C611124-9B01-49A0-9CF6-B38B602DD786/DocumentsBrowser 2/Github & Dailymotion API/Presentation";
+			sourceTree = "<group>";
+		};
+		89728BF520C6F8DD00A4D3AC /* CategoriesList */ = {
+			isa = PBXGroup;
+			children = (
+				89728BF620C6F8DD00A4D3AC /* ViewModels */,
+				89728BF820C6F8DD00A4D3AC /* ViewControllers */,
+				89728BFA20C6F8DD00A4D3AC /* Views */,
+			);
+			path = CategoriesList;
+			sourceTree = "<group>";
+		};
+		89728BF620C6F8DD00A4D3AC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				89728BF720C6F8DD00A4D3AC /* CategoriesListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		89728BF820C6F8DD00A4D3AC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				89728BF920C6F8DD00A4D3AC /* CategoriesListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		89728BFA20C6F8DD00A4D3AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89728BFB20C6F8DD00A4D3AC /* UserDetails */ = {
+			isa = PBXGroup;
+			children = (
+				89728BFC20C6F8DD00A4D3AC /* ViewModels */,
+				89728BFE20C6F8DD00A4D3AC /* Components */,
+				89728C0020C6F8DD00A4D3AC /* ViewControllers */,
+			);
+			path = UserDetails;
+			sourceTree = "<group>";
+		};
+		89728BFC20C6F8DD00A4D3AC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				89728BFD20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		89728BFE20C6F8DD00A4D3AC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				89728BFF20C6F8DD00A4D3AC /* ProfileDetailsOwner.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		89728C0020C6F8DD00A4D3AC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				89728C0120C6F8DD00A4D3AC /* ProfileDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		89728C0220C6F8DD00A4D3AC /* ProfileList */ = {
+			isa = PBXGroup;
+			children = (
+				89728C0320C6F8DD00A4D3AC /* ViewModels */,
+				89728C0520C6F8DD00A4D3AC /* Components */,
+				89728C0720C6F8DD00A4D3AC /* ViewControllers */,
+				89728C0920C6F8DD00A4D3AC /* Views */,
+			);
+			path = ProfileList;
+			sourceTree = "<group>";
+		};
+		89728C0320C6F8DD00A4D3AC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				89728C0420C6F8DD00A4D3AC /* ProfileCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		89728C0520C6F8DD00A4D3AC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				89728C0620C6F8DD00A4D3AC /* ProfilesListOwner.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		89728C0720C6F8DD00A4D3AC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				89728C0820C6F8DD00A4D3AC /* ProfilesListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		89728C0920C6F8DD00A4D3AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89728C0A20C6F8DD00A4D3AC /* ProfilesListTableViewCell.xib */,
+				89728C0B20C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89728C0C20C6F8DD00A4D3AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89728C0D20C6F8DD00A4D3AC /* Assets.xcassets */,
+				89728C0E20C6F8DD00A4D3AC /* LaunchScreen.storyboard */,
+				89728C1020C6F8DD00A4D3AC /* Main.storyboard */,
+				89728C1220C6F8DD00A4D3AC /* Info.plist */,
+			);
+			name = Resources;
+			path = "../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6C611124-9B01-49A0-9CF6-B38B602DD786/DocumentsBrowser 2/Github & Dailymotion API/Resources";
+			sourceTree = "<group>";
+		};
 		8979E8EA20C6B7580002A05C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +421,8 @@
 				8979E90C20C6B75C0002A05C /* GitHub-dailymotion-APITests */,
 				8979E91720C6B75C0002A05C /* GitHub-dailymotion-APIUITests */,
 				8979E8F420C6B7580002A05C /* Products */,
+				808DECFDA851CF74A67F26B9 /* Pods */,
+				4B79F8A840223D0816BDAF02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +439,10 @@
 		8979E8F520C6B7580002A05C /* GitHub-dailymotion-API */ = {
 			isa = PBXGroup;
 			children = (
-				8979E8F620C6B7590002A05C /* AppDelegate.swift */,
-				8979E8F820C6B7590002A05C /* MasterViewController.swift */,
-				8979E8FA20C6B7590002A05C /* DetailViewController.swift */,
-				8979E8FC20C6B7590002A05C /* Main.storyboard */,
-				8979E8FF20C6B75C0002A05C /* Assets.xcassets */,
-				8979E90120C6B75C0002A05C /* LaunchScreen.storyboard */,
-				8979E90420C6B75C0002A05C /* Info.plist */,
+				89728BDD20C6F8DD00A4D3AC /* API */,
+				89728BEB20C6F8DD00A4D3AC /* Common */,
+				89728BF420C6F8DD00A4D3AC /* Presentation */,
+				89728C0C20C6F8DD00A4D3AC /* Resources */,
 			);
 			path = "GitHub-dailymotion-API";
 			sourceTree = "<group>";
@@ -115,6 +452,7 @@
 			children = (
 				8979E90D20C6B75C0002A05C /* GitHub_dailymotion_APITests.swift */,
 				8979E90F20C6B75C0002A05C /* Info.plist */,
+				89728C7020C6F94A00A4D3AC /* ApiServiceStub.swift */,
 			);
 			path = "GitHub-dailymotion-APITests";
 			sourceTree = "<group>";
@@ -232,9 +570,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8979E90320C6B75C0002A05C /* LaunchScreen.storyboard in Resources */,
-				8979E90020C6B75C0002A05C /* Assets.xcassets in Resources */,
-				8979E8FE20C6B7590002A05C /* Main.storyboard in Resources */,
+				89728C6720C6F8DD00A4D3AC /* LaunchScreen.storyboard in Resources */,
+				89728C6420C6F8DD00A4D3AC /* Assets.xcassets in Resources */,
+				89728C5E20C6F8DD00A4D3AC /* ProfilesListTableViewCell.xib in Resources */,
+				89728C6D20C6F8DD00A4D3AC /* Info.plist in Resources */,
+				89728C6A20C6F8DD00A4D3AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +582,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89728C6820C6F8DD00A4D3AC /* LaunchScreen.storyboard in Resources */,
+				89728C6520C6F8DD00A4D3AC /* Assets.xcassets in Resources */,
+				89728C5F20C6F8DD00A4D3AC /* ProfilesListTableViewCell.xib in Resources */,
+				89728C6E20C6F8DD00A4D3AC /* Info.plist in Resources */,
+				89728C6B20C6F8DD00A4D3AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +594,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89728C6920C6F8DD00A4D3AC /* LaunchScreen.storyboard in Resources */,
+				89728C6620C6F8DD00A4D3AC /* Assets.xcassets in Resources */,
+				89728C6020C6F8DD00A4D3AC /* ProfilesListTableViewCell.xib in Resources */,
+				89728C6F20C6F8DD00A4D3AC /* Info.plist in Resources */,
+				89728C6C20C6F8DD00A4D3AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +609,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8979E8FB20C6B7590002A05C /* DetailViewController.swift in Sources */,
-				8979E8F920C6B7590002A05C /* MasterViewController.swift in Sources */,
-				8979E8F720C6B7590002A05C /* AppDelegate.swift in Sources */,
+				89728C2820C6F8DD00A4D3AC /* ApiErrorsFactory.swift in Sources */,
+				89728C3120C6F8DD00A4D3AC /* UIFont+Extensions.swift in Sources */,
+				89728C3D20C6F8DD00A4D3AC /* Date+ToString.swift in Sources */,
+				89728C5220C6F8DD00A4D3AC /* ProfileDetailsViewController.swift in Sources */,
+				89728C5820C6F8DD00A4D3AC /* ProfilesListOwner.swift in Sources */,
+				89728C2E20C6F8DD00A4D3AC /* ApiServiceGithubList.swift in Sources */,
+				89728C5520C6F8DD00A4D3AC /* ProfileCellViewModel.swift in Sources */,
+				89728C2B20C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift in Sources */,
+				89728C5B20C6F8DD00A4D3AC /* ProfilesListViewController.swift in Sources */,
+				89728C1F20C6F8DD00A4D3AC /* ApiResponseDecoder.swift in Sources */,
+				89728C1620C6F8DD00A4D3AC /* DailymotionResponseModel.swift in Sources */,
+				89728C2220C6F8DD00A4D3AC /* ApiService.swift in Sources */,
+				89728C4620C6F8DD00A4D3AC /* CategoriesListViewModel.swift in Sources */,
+				89728C3420C6F8DD00A4D3AC /* UIColor+Extensions.swift in Sources */,
+				89728C4C20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift in Sources */,
+				89728C4020C6F8DD00A4D3AC /* String+ApiDate.swift in Sources */,
+				89728C6120C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift in Sources */,
+				89728C4920C6F8DD00A4D3AC /* CategoriesListViewController.swift in Sources */,
+				89728C3720C6F8DD00A4D3AC /* NSAttributedString+Html.swift in Sources */,
+				89728C1C20C6F8DD00A4D3AC /* BaseUserModel.swift in Sources */,
+				89728C3A20C6F8DD00A4D3AC /* UIImageView+LoadImage.swift in Sources */,
+				89728C2520C6F8DD00A4D3AC /* BaseApiService.swift in Sources */,
+				89728C1920C6F8DD00A4D3AC /* DailymotionUserModel.swift in Sources */,
+				89728C4F20C6F8DD00A4D3AC /* ProfileDetailsOwner.swift in Sources */,
+				89728C4320C6F8DD00A4D3AC /* AppDelegate.swift in Sources */,
+				89728C1320C6F8DD00A4D3AC /* GithubUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +642,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89728C5920C6F8DD00A4D3AC /* ProfilesListOwner.swift in Sources */,
 				8979E90E20C6B75C0002A05C /* GitHub_dailymotion_APITests.swift in Sources */,
+				89728C3E20C6F8DD00A4D3AC /* Date+ToString.swift in Sources */,
+				89728C2920C6F8DD00A4D3AC /* ApiErrorsFactory.swift in Sources */,
+				89728C7220C6F94A00A4D3AC /* ApiServiceStub.swift in Sources */,
+				89728C2F20C6F8DD00A4D3AC /* ApiServiceGithubList.swift in Sources */,
+				89728C5020C6F8DD00A4D3AC /* ProfileDetailsOwner.swift in Sources */,
+				89728C3520C6F8DD00A4D3AC /* UIColor+Extensions.swift in Sources */,
+				89728C4D20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift in Sources */,
+				89728C2C20C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift in Sources */,
+				89728C1420C6F8DD00A4D3AC /* GithubUserModel.swift in Sources */,
+				89728C3820C6F8DD00A4D3AC /* NSAttributedString+Html.swift in Sources */,
+				89728C5320C6F8DD00A4D3AC /* ProfileDetailsViewController.swift in Sources */,
+				89728C1A20C6F8DD00A4D3AC /* DailymotionUserModel.swift in Sources */,
+				89728C1720C6F8DD00A4D3AC /* DailymotionResponseModel.swift in Sources */,
+				89728C4A20C6F8DD00A4D3AC /* CategoriesListViewController.swift in Sources */,
+				89728C2020C6F8DD00A4D3AC /* ApiResponseDecoder.swift in Sources */,
+				89728C2620C6F8DD00A4D3AC /* BaseApiService.swift in Sources */,
+				89728C4420C6F8DD00A4D3AC /* AppDelegate.swift in Sources */,
+				89728C4120C6F8DD00A4D3AC /* String+ApiDate.swift in Sources */,
+				89728C5620C6F8DD00A4D3AC /* ProfileCellViewModel.swift in Sources */,
+				89728C6220C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift in Sources */,
+				89728C5C20C6F8DD00A4D3AC /* ProfilesListViewController.swift in Sources */,
+				89728C4720C6F8DD00A4D3AC /* CategoriesListViewModel.swift in Sources */,
+				89728C2320C6F8DD00A4D3AC /* ApiService.swift in Sources */,
+				89728C3220C6F8DD00A4D3AC /* UIFont+Extensions.swift in Sources */,
+				89728C3B20C6F8DD00A4D3AC /* UIImageView+LoadImage.swift in Sources */,
+				89728C1D20C6F8DD00A4D3AC /* BaseUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +677,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89728C5A20C6F8DD00A4D3AC /* ProfilesListOwner.swift in Sources */,
 				8979E91920C6B75C0002A05C /* GitHub_dailymotion_APIUITests.swift in Sources */,
+				89728C3F20C6F8DD00A4D3AC /* Date+ToString.swift in Sources */,
+				89728C2A20C6F8DD00A4D3AC /* ApiErrorsFactory.swift in Sources */,
+				89728C3020C6F8DD00A4D3AC /* ApiServiceGithubList.swift in Sources */,
+				89728C5120C6F8DD00A4D3AC /* ProfileDetailsOwner.swift in Sources */,
+				89728C3620C6F8DD00A4D3AC /* UIColor+Extensions.swift in Sources */,
+				89728C4E20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift in Sources */,
+				89728C2D20C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift in Sources */,
+				89728C1520C6F8DD00A4D3AC /* GithubUserModel.swift in Sources */,
+				89728C3920C6F8DD00A4D3AC /* NSAttributedString+Html.swift in Sources */,
+				89728C5420C6F8DD00A4D3AC /* ProfileDetailsViewController.swift in Sources */,
+				89728C1B20C6F8DD00A4D3AC /* DailymotionUserModel.swift in Sources */,
+				89728C1820C6F8DD00A4D3AC /* DailymotionResponseModel.swift in Sources */,
+				89728C4B20C6F8DD00A4D3AC /* CategoriesListViewController.swift in Sources */,
+				89728C2120C6F8DD00A4D3AC /* ApiResponseDecoder.swift in Sources */,
+				89728C2720C6F8DD00A4D3AC /* BaseApiService.swift in Sources */,
+				89728C4520C6F8DD00A4D3AC /* AppDelegate.swift in Sources */,
+				89728C4220C6F8DD00A4D3AC /* String+ApiDate.swift in Sources */,
+				89728C5720C6F8DD00A4D3AC /* ProfileCellViewModel.swift in Sources */,
+				89728C6320C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift in Sources */,
+				89728C5D20C6F8DD00A4D3AC /* ProfilesListViewController.swift in Sources */,
+				89728C4820C6F8DD00A4D3AC /* CategoriesListViewModel.swift in Sources */,
+				89728C2420C6F8DD00A4D3AC /* ApiService.swift in Sources */,
+				89728C3320C6F8DD00A4D3AC /* UIFont+Extensions.swift in Sources */,
+				89728C3C20C6F8DD00A4D3AC /* UIImageView+LoadImage.swift in Sources */,
+				89728C1E20C6F8DD00A4D3AC /* BaseUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,85 +723,25 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8979E8FC20C6B7590002A05C /* Main.storyboard */ = {
+		89728C0E20C6F8DD00A4D3AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8979E8FD20C6B7590002A05C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8979E90120C6B75C0002A05C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8979E90220C6B75C0002A05C /* Base */,
+				89728C0F20C6F8DD00A4D3AC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		89728C1020C6F8DD00A4D3AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89728C1120C6F8DD00A4D3AC /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8979E91B20C6B75C0002A05C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
 		8979E91C20C6B75C0002A05C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -430,31 +796,14 @@
 			};
 			name = Release;
 		};
-		8979E91E20C6B75C0002A05C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6HUL77PN4N;
-				INFOPLIST_FILE = "GitHub-dailymotion-API/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.lu.GitHub-dailymotion-API";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		8979E91F20C6B75C0002A05C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90C6B71D4812639BD85EC84 /* Pods-GitHub-dailymotion-API.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6HUL77PN4N;
-				INFOPLIST_FILE = "GitHub-dailymotion-API/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6C611124-9B01-49A0-9CF6-B38B602DD786/DocumentsBrowser 2/Github & Dailymotion API/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,30 +814,10 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
-		};
-		8979E92120C6B75C0002A05C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6HUL77PN4N;
-				INFOPLIST_FILE = "GitHub-dailymotion-APITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.lu.GitHub-dailymotion-APITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHub-dailymotion-API.app/GitHub-dailymotion-API";
-			};
-			name = Debug;
 		};
 		8979E92220C6B75C0002A05C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD79C9B4973633250B4FC4C /* Pods-GitHub-dailymotion-APITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,26 +836,6 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHub-dailymotion-API.app/GitHub-dailymotion-API";
 			};
 			name = Release;
-		};
-		8979E92420C6B75C0002A05C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6HUL77PN4N;
-				INFOPLIST_FILE = "GitHub-dailymotion-APIUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pl.lu.GitHub-dailymotion-APIUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "GitHub-dailymotion-API";
-			};
-			name = Debug;
 		};
 		8979E92520C6B75C0002A05C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -554,7 +863,6 @@
 		8979E8EE20C6B7580002A05C /* Build configuration list for PBXProject "GitHub-dailymotion-API" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8979E91B20C6B75C0002A05C /* Debug */,
 				8979E91C20C6B75C0002A05C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -563,7 +871,6 @@
 		8979E91D20C6B75C0002A05C /* Build configuration list for PBXNativeTarget "GitHub-dailymotion-API" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8979E91E20C6B75C0002A05C /* Debug */,
 				8979E91F20C6B75C0002A05C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -572,7 +879,6 @@
 		8979E92020C6B75C0002A05C /* Build configuration list for PBXNativeTarget "GitHub-dailymotion-APITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8979E92120C6B75C0002A05C /* Debug */,
 				8979E92220C6B75C0002A05C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -581,7 +887,6 @@
 		8979E92320C6B75C0002A05C /* Build configuration list for PBXNativeTarget "GitHub-dailymotion-APIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8979E92420C6B75C0002A05C /* Debug */,
 				8979E92520C6B75C0002A05C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
