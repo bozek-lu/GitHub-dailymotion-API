@@ -88,7 +88,6 @@
 		89728C6A20C6F8DD00A4D3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89728C1020C6F8DD00A4D3AC /* Main.storyboard */; };
 		89728C6B20C6F8DD00A4D3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89728C1020C6F8DD00A4D3AC /* Main.storyboard */; };
 		89728C6C20C6F8DD00A4D3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89728C1020C6F8DD00A4D3AC /* Main.storyboard */; };
-		89728C6D20C6F8DD00A4D3AC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89728C1220C6F8DD00A4D3AC /* Info.plist */; };
 		89728C6E20C6F8DD00A4D3AC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89728C1220C6F8DD00A4D3AC /* Info.plist */; };
 		89728C6F20C6F8DD00A4D3AC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89728C1220C6F8DD00A4D3AC /* Info.plist */; };
 		89728C7220C6F94A00A4D3AC /* ApiServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728C7020C6F94A00A4D3AC /* ApiServiceStub.swift */; };
@@ -114,10 +113,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10FA636F45A2C073536F4EA2 /* Pods-GitHub-dailymotion-APITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub-dailymotion-APITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub-dailymotion-APITests/Pods-GitHub-dailymotion-APITests.debug.xcconfig"; sourceTree = "<group>"; };
-		12A950F516630C5D5C077B06 /* Pods_GitHub_dailymotion_APITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHub_dailymotion_APITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		587B390DF593089F442C3D0E /* Pods-GitHub-dailymotion-API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub-dailymotion-API.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub-dailymotion-API/Pods-GitHub-dailymotion-API.debug.xcconfig"; sourceTree = "<group>"; };
-		7FD79C9B4973633250B4FC4C /* Pods-GitHub-dailymotion-APITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub-dailymotion-APITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub-dailymotion-APITests/Pods-GitHub-dailymotion-APITests.release.xcconfig"; sourceTree = "<group>"; };
 		89728BDF20C6F8DD00A4D3AC /* GithubUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUserModel.swift; sourceTree = "<group>"; };
 		89728BE020C6F8DD00A4D3AC /* DailymotionResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailymotionResponseModel.swift; sourceTree = "<group>"; };
 		89728BE120C6F8DD00A4D3AC /* DailymotionUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailymotionUserModel.swift; sourceTree = "<group>"; };
@@ -147,15 +142,13 @@
 		89728C1120C6F8DD00A4D3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89728C1220C6F8DD00A4D3AC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89728C7020C6F94A00A4D3AC /* ApiServiceStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServiceStub.swift; sourceTree = "<group>"; };
-		8979E8F320C6B7580002A05C /* GitHub-dailymotion-API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub-dailymotion-API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8979E90920C6B75C0002A05C /* GitHub-dailymotion-APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitHub-dailymotion-APITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8979E90D20C6B75C0002A05C /* GitHub_dailymotion_APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_dailymotion_APITests.swift; sourceTree = "<group>"; };
 		8979E90F20C6B75C0002A05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8979E91420C6B75C0002A05C /* GitHub-dailymotion-APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitHub-dailymotion-APIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8979E91820C6B75C0002A05C /* GitHub_dailymotion_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_dailymotion_APIUITests.swift; sourceTree = "<group>"; };
 		8979E91A20C6B75C0002A05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1B6EC4C82228517E74FA230 /* Pods_GitHub_dailymotion_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHub_dailymotion_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F90C6B71D4812639BD85EC84 /* Pods-GitHub-dailymotion-API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub-dailymotion-API.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub-dailymotion-API/Pods-GitHub-dailymotion-API.release.xcconfig"; sourceTree = "<group>"; };
+		89E8B3FB20C7107A002033DA /* GitHub-dailymotion-API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub-dailymotion-API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E8B3FC20C7107A002033DA /* GitHub-dailymotion-APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitHub-dailymotion-APITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E8B3FD20C7107A002033DA /* GitHub-dailymotion-APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitHub-dailymotion-APIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,26 +176,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B79F8A840223D0816BDAF02 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E1B6EC4C82228517E74FA230 /* Pods_GitHub_dailymotion_API.framework */,
-				12A950F516630C5D5C077B06 /* Pods_GitHub_dailymotion_APITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		808DECFDA851CF74A67F26B9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				587B390DF593089F442C3D0E /* Pods-GitHub-dailymotion-API.debug.xcconfig */,
-				F90C6B71D4812639BD85EC84 /* Pods-GitHub-dailymotion-API.release.xcconfig */,
-				10FA636F45A2C073536F4EA2 /* Pods-GitHub-dailymotion-APITests.debug.xcconfig */,
-				7FD79C9B4973633250B4FC4C /* Pods-GitHub-dailymotion-APITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		89728BDD20C6F8DD00A4D3AC /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -405,20 +378,10 @@
 				8979E8F520C6B7580002A05C /* GitHub-dailymotion-API */,
 				8979E90C20C6B75C0002A05C /* GitHub-dailymotion-APITests */,
 				8979E91720C6B75C0002A05C /* GitHub-dailymotion-APIUITests */,
-				8979E8F420C6B7580002A05C /* Products */,
-				808DECFDA851CF74A67F26B9 /* Pods */,
-				4B79F8A840223D0816BDAF02 /* Frameworks */,
+				89E8B3FB20C7107A002033DA /* GitHub-dailymotion-API.app */,
+				89E8B3FC20C7107A002033DA /* GitHub-dailymotion-APITests.xctest */,
+				89E8B3FD20C7107A002033DA /* GitHub-dailymotion-APIUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		8979E8F420C6B7580002A05C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8979E8F320C6B7580002A05C /* GitHub-dailymotion-API.app */,
-				8979E90920C6B75C0002A05C /* GitHub-dailymotion-APITests.xctest */,
-				8979E91420C6B75C0002A05C /* GitHub-dailymotion-APIUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8979E8F520C6B7580002A05C /* GitHub-dailymotion-API */ = {
@@ -468,7 +431,7 @@
 			);
 			name = "GitHub-dailymotion-API";
 			productName = "GitHub-dailymotion-API";
-			productReference = 8979E8F320C6B7580002A05C /* GitHub-dailymotion-API.app */;
+			productReference = 89E8B3FB20C7107A002033DA /* GitHub-dailymotion-API.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8979E90820C6B75C0002A05C /* GitHub-dailymotion-APITests */ = {
@@ -486,7 +449,7 @@
 			);
 			name = "GitHub-dailymotion-APITests";
 			productName = "GitHub-dailymotion-APITests";
-			productReference = 8979E90920C6B75C0002A05C /* GitHub-dailymotion-APITests.xctest */;
+			productReference = 89E8B3FC20C7107A002033DA /* GitHub-dailymotion-APITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		8979E91320C6B75C0002A05C /* GitHub-dailymotion-APIUITests */ = {
@@ -504,7 +467,7 @@
 			);
 			name = "GitHub-dailymotion-APIUITests";
 			productName = "GitHub-dailymotion-APIUITests";
-			productReference = 8979E91420C6B75C0002A05C /* GitHub-dailymotion-APIUITests.xctest */;
+			productReference = 89E8B3FD20C7107A002033DA /* GitHub-dailymotion-APIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -539,7 +502,7 @@
 				Base,
 			);
 			mainGroup = 8979E8EA20C6B7580002A05C;
-			productRefGroup = 8979E8F420C6B7580002A05C /* Products */;
+			productRefGroup = 8979E8EA20C6B7580002A05C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -558,7 +521,6 @@
 				89728C6720C6F8DD00A4D3AC /* LaunchScreen.storyboard in Resources */,
 				89728C6420C6F8DD00A4D3AC /* Assets.xcassets in Resources */,
 				89728C5E20C6F8DD00A4D3AC /* ProfilesListTableViewCell.xib in Resources */,
-				89728C6D20C6F8DD00A4D3AC /* Info.plist in Resources */,
 				89728C6A20C6F8DD00A4D3AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
