@@ -43,18 +43,9 @@
 		89728C3420C6F8DD00A4D3AC /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEE20C6F8DD00A4D3AC /* UIColor+Extensions.swift */; };
 		89728C3520C6F8DD00A4D3AC /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEE20C6F8DD00A4D3AC /* UIColor+Extensions.swift */; };
 		89728C3620C6F8DD00A4D3AC /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEE20C6F8DD00A4D3AC /* UIColor+Extensions.swift */; };
-		89728C3720C6F8DD00A4D3AC /* NSAttributedString+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEF20C6F8DD00A4D3AC /* NSAttributedString+Html.swift */; };
-		89728C3820C6F8DD00A4D3AC /* NSAttributedString+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEF20C6F8DD00A4D3AC /* NSAttributedString+Html.swift */; };
-		89728C3920C6F8DD00A4D3AC /* NSAttributedString+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BEF20C6F8DD00A4D3AC /* NSAttributedString+Html.swift */; };
 		89728C3A20C6F8DD00A4D3AC /* UIImageView+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF020C6F8DD00A4D3AC /* UIImageView+LoadImage.swift */; };
 		89728C3B20C6F8DD00A4D3AC /* UIImageView+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF020C6F8DD00A4D3AC /* UIImageView+LoadImage.swift */; };
 		89728C3C20C6F8DD00A4D3AC /* UIImageView+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF020C6F8DD00A4D3AC /* UIImageView+LoadImage.swift */; };
-		89728C3D20C6F8DD00A4D3AC /* Date+ToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF120C6F8DD00A4D3AC /* Date+ToString.swift */; };
-		89728C3E20C6F8DD00A4D3AC /* Date+ToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF120C6F8DD00A4D3AC /* Date+ToString.swift */; };
-		89728C3F20C6F8DD00A4D3AC /* Date+ToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF120C6F8DD00A4D3AC /* Date+ToString.swift */; };
-		89728C4020C6F8DD00A4D3AC /* String+ApiDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF220C6F8DD00A4D3AC /* String+ApiDate.swift */; };
-		89728C4120C6F8DD00A4D3AC /* String+ApiDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF220C6F8DD00A4D3AC /* String+ApiDate.swift */; };
-		89728C4220C6F8DD00A4D3AC /* String+ApiDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF220C6F8DD00A4D3AC /* String+ApiDate.swift */; };
 		89728C4320C6F8DD00A4D3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF320C6F8DD00A4D3AC /* AppDelegate.swift */; };
 		89728C4420C6F8DD00A4D3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF320C6F8DD00A4D3AC /* AppDelegate.swift */; };
 		89728C4520C6F8DD00A4D3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89728BF320C6F8DD00A4D3AC /* AppDelegate.swift */; };
@@ -139,10 +130,7 @@
 		89728BEA20C6F8DD00A4D3AC /* ApiServiceGithubList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServiceGithubList.swift; sourceTree = "<group>"; };
 		89728BED20C6F8DD00A4D3AC /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		89728BEE20C6F8DD00A4D3AC /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		89728BEF20C6F8DD00A4D3AC /* NSAttributedString+Html.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Html.swift"; sourceTree = "<group>"; };
 		89728BF020C6F8DD00A4D3AC /* UIImageView+LoadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+LoadImage.swift"; sourceTree = "<group>"; };
-		89728BF120C6F8DD00A4D3AC /* Date+ToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+ToString.swift"; sourceTree = "<group>"; };
-		89728BF220C6F8DD00A4D3AC /* String+ApiDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ApiDate.swift"; sourceTree = "<group>"; };
 		89728BF320C6F8DD00A4D3AC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89728BF720C6F8DD00A4D3AC /* CategoriesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListViewModel.swift; sourceTree = "<group>"; };
 		89728BF920C6F8DD00A4D3AC /* CategoriesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListViewController.swift; sourceTree = "<group>"; };
@@ -234,7 +222,8 @@
 				89728BE120C6F8DD00A4D3AC /* DailymotionUserModel.swift */,
 				89728BE220C6F8DD00A4D3AC /* BaseUserModel.swift */,
 			);
-			path = Models;
+			name = Models;
+			path = "../../../../../../../../../../dev/GitHub-dailymotion-API/GitHub-dailymotion-API/GitHub-dailymotion-API/API/Models";
 			sourceTree = "<group>";
 		};
 		89728BE320C6F8DD00A4D3AC /* Base */ = {
@@ -245,7 +234,8 @@
 				89728BE620C6F8DD00A4D3AC /* BaseApiService.swift */,
 				89728BE720C6F8DD00A4D3AC /* ApiErrorsFactory.swift */,
 			);
-			path = Base;
+			name = Base;
+			path = "../../../../../../../../../../dev/GitHub-dailymotion-API/GitHub-dailymotion-API/GitHub-dailymotion-API/API/Base";
 			sourceTree = "<group>";
 		};
 		89728BE820C6F8DD00A4D3AC /* Services */ = {
@@ -254,7 +244,8 @@
 				89728BE920C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift */,
 				89728BEA20C6F8DD00A4D3AC /* ApiServiceGithubList.swift */,
 			);
-			path = Services;
+			name = Services;
+			path = "../../../../../../../../../../dev/GitHub-dailymotion-API/GitHub-dailymotion-API/GitHub-dailymotion-API/API/Services";
 			sourceTree = "<group>";
 		};
 		89728BEB20C6F8DD00A4D3AC /* Common */ = {
@@ -263,8 +254,7 @@
 				89728BEC20C6F8DD00A4D3AC /* Extensions */,
 				89728BF320C6F8DD00A4D3AC /* AppDelegate.swift */,
 			);
-			name = Common;
-			path = "../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6C611124-9B01-49A0-9CF6-B38B602DD786/DocumentsBrowser 2/Github & Dailymotion API/Common";
+			path = Common;
 			sourceTree = "<group>";
 		};
 		89728BEC20C6F8DD00A4D3AC /* Extensions */ = {
@@ -272,10 +262,7 @@
 			children = (
 				89728BED20C6F8DD00A4D3AC /* UIFont+Extensions.swift */,
 				89728BEE20C6F8DD00A4D3AC /* UIColor+Extensions.swift */,
-				89728BEF20C6F8DD00A4D3AC /* NSAttributedString+Html.swift */,
 				89728BF020C6F8DD00A4D3AC /* UIImageView+LoadImage.swift */,
-				89728BF120C6F8DD00A4D3AC /* Date+ToString.swift */,
-				89728BF220C6F8DD00A4D3AC /* String+ApiDate.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -287,8 +274,7 @@
 				89728BFB20C6F8DD00A4D3AC /* UserDetails */,
 				89728C0220C6F8DD00A4D3AC /* ProfileList */,
 			);
-			name = Presentation;
-			path = "../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6C611124-9B01-49A0-9CF6-B38B602DD786/DocumentsBrowser 2/Github & Dailymotion API/Presentation";
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		89728BF520C6F8DD00A4D3AC /* CategoriesList */ = {
@@ -410,8 +396,7 @@
 				89728C1020C6F8DD00A4D3AC /* Main.storyboard */,
 				89728C1220C6F8DD00A4D3AC /* Info.plist */,
 			);
-			name = Resources;
-			path = "../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6C611124-9B01-49A0-9CF6-B38B602DD786/DocumentsBrowser 2/Github & Dailymotion API/Resources";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		8979E8EA20C6B7580002A05C = {
@@ -611,7 +596,6 @@
 			files = (
 				89728C2820C6F8DD00A4D3AC /* ApiErrorsFactory.swift in Sources */,
 				89728C3120C6F8DD00A4D3AC /* UIFont+Extensions.swift in Sources */,
-				89728C3D20C6F8DD00A4D3AC /* Date+ToString.swift in Sources */,
 				89728C5220C6F8DD00A4D3AC /* ProfileDetailsViewController.swift in Sources */,
 				89728C5820C6F8DD00A4D3AC /* ProfilesListOwner.swift in Sources */,
 				89728C2E20C6F8DD00A4D3AC /* ApiServiceGithubList.swift in Sources */,
@@ -624,10 +608,8 @@
 				89728C4620C6F8DD00A4D3AC /* CategoriesListViewModel.swift in Sources */,
 				89728C3420C6F8DD00A4D3AC /* UIColor+Extensions.swift in Sources */,
 				89728C4C20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift in Sources */,
-				89728C4020C6F8DD00A4D3AC /* String+ApiDate.swift in Sources */,
 				89728C6120C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift in Sources */,
 				89728C4920C6F8DD00A4D3AC /* CategoriesListViewController.swift in Sources */,
-				89728C3720C6F8DD00A4D3AC /* NSAttributedString+Html.swift in Sources */,
 				89728C1C20C6F8DD00A4D3AC /* BaseUserModel.swift in Sources */,
 				89728C3A20C6F8DD00A4D3AC /* UIImageView+LoadImage.swift in Sources */,
 				89728C2520C6F8DD00A4D3AC /* BaseApiService.swift in Sources */,
@@ -644,7 +626,6 @@
 			files = (
 				89728C5920C6F8DD00A4D3AC /* ProfilesListOwner.swift in Sources */,
 				8979E90E20C6B75C0002A05C /* GitHub_dailymotion_APITests.swift in Sources */,
-				89728C3E20C6F8DD00A4D3AC /* Date+ToString.swift in Sources */,
 				89728C2920C6F8DD00A4D3AC /* ApiErrorsFactory.swift in Sources */,
 				89728C7220C6F94A00A4D3AC /* ApiServiceStub.swift in Sources */,
 				89728C2F20C6F8DD00A4D3AC /* ApiServiceGithubList.swift in Sources */,
@@ -653,7 +634,6 @@
 				89728C4D20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift in Sources */,
 				89728C2C20C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift in Sources */,
 				89728C1420C6F8DD00A4D3AC /* GithubUserModel.swift in Sources */,
-				89728C3820C6F8DD00A4D3AC /* NSAttributedString+Html.swift in Sources */,
 				89728C5320C6F8DD00A4D3AC /* ProfileDetailsViewController.swift in Sources */,
 				89728C1A20C6F8DD00A4D3AC /* DailymotionUserModel.swift in Sources */,
 				89728C1720C6F8DD00A4D3AC /* DailymotionResponseModel.swift in Sources */,
@@ -661,7 +641,6 @@
 				89728C2020C6F8DD00A4D3AC /* ApiResponseDecoder.swift in Sources */,
 				89728C2620C6F8DD00A4D3AC /* BaseApiService.swift in Sources */,
 				89728C4420C6F8DD00A4D3AC /* AppDelegate.swift in Sources */,
-				89728C4120C6F8DD00A4D3AC /* String+ApiDate.swift in Sources */,
 				89728C5620C6F8DD00A4D3AC /* ProfileCellViewModel.swift in Sources */,
 				89728C6220C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift in Sources */,
 				89728C5C20C6F8DD00A4D3AC /* ProfilesListViewController.swift in Sources */,
@@ -679,7 +658,6 @@
 			files = (
 				89728C5A20C6F8DD00A4D3AC /* ProfilesListOwner.swift in Sources */,
 				8979E91920C6B75C0002A05C /* GitHub_dailymotion_APIUITests.swift in Sources */,
-				89728C3F20C6F8DD00A4D3AC /* Date+ToString.swift in Sources */,
 				89728C2A20C6F8DD00A4D3AC /* ApiErrorsFactory.swift in Sources */,
 				89728C3020C6F8DD00A4D3AC /* ApiServiceGithubList.swift in Sources */,
 				89728C5120C6F8DD00A4D3AC /* ProfileDetailsOwner.swift in Sources */,
@@ -687,7 +665,6 @@
 				89728C4E20C6F8DD00A4D3AC /* ProfileDetailsViewModel.swift in Sources */,
 				89728C2D20C6F8DD00A4D3AC /* ApiServiceDailymotionList.swift in Sources */,
 				89728C1520C6F8DD00A4D3AC /* GithubUserModel.swift in Sources */,
-				89728C3920C6F8DD00A4D3AC /* NSAttributedString+Html.swift in Sources */,
 				89728C5420C6F8DD00A4D3AC /* ProfileDetailsViewController.swift in Sources */,
 				89728C1B20C6F8DD00A4D3AC /* DailymotionUserModel.swift in Sources */,
 				89728C1820C6F8DD00A4D3AC /* DailymotionResponseModel.swift in Sources */,
@@ -695,7 +672,6 @@
 				89728C2120C6F8DD00A4D3AC /* ApiResponseDecoder.swift in Sources */,
 				89728C2720C6F8DD00A4D3AC /* BaseApiService.swift in Sources */,
 				89728C4520C6F8DD00A4D3AC /* AppDelegate.swift in Sources */,
-				89728C4220C6F8DD00A4D3AC /* String+ApiDate.swift in Sources */,
 				89728C5720C6F8DD00A4D3AC /* ProfileCellViewModel.swift in Sources */,
 				89728C6320C6F8DD00A4D3AC /* ProfilesListTableViewCell.swift in Sources */,
 				89728C5D20C6F8DD00A4D3AC /* ProfilesListViewController.swift in Sources */,
@@ -798,12 +774,11 @@
 		};
 		8979E91F20C6B75C0002A05C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F90C6B71D4812639BD85EC84 /* Pods-GitHub-dailymotion-API.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6HUL77PN4N;
-				INFOPLIST_FILE = "$(SRCROOT)/../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6C611124-9B01-49A0-9CF6-B38B602DD786/DocumentsBrowser 2/Github & Dailymotion API/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GitHub-dailymotion-API/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -817,7 +792,6 @@
 		};
 		8979E92220C6B75C0002A05C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FD79C9B4973633250B4FC4C /* Pods-GitHub-dailymotion-APITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
